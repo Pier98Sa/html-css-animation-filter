@@ -121,7 +121,7 @@
 }
 
 .ex-7-img:hover{
-    filter: sepia(65%);
+    filter: sepia(65%) grayscale(60%);
 }
 
 /*Esercizio 8*/
@@ -131,7 +131,7 @@
 }
 
 .ex-8-img:hover{
-    filter: sepia(65%);
+    filter: sepia(65%) grayscale(60%);
     border-radius: 26px;
 }
 
@@ -139,7 +139,7 @@
 
 .ex-9-img:hover{
     border-radius: 26px;
-    filter: sepia(70%);
+    filter: sepia(70%) grayscale(60%);
     transform: scale(1.5,1.5);
 }
 
