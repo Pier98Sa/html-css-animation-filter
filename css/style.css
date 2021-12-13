@@ -110,7 +110,7 @@
 
 /*Esercio 6*/
 .ex-6-img:hover{
-    filter: grayscale(1);
+    filter: grayscale(100%);
 }
 
 /*Esercizio 7*/
