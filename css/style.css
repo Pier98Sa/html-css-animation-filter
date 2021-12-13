@@ -41,6 +41,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 0.75s linear 0.75s infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -140,4 +141,15 @@
     border-radius: 26px;
     filter: sepia(70%);
     transform: scale(1.5,1.5);
+}
+
+/*esercizio 10*/
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
 }
