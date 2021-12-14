@@ -101,13 +101,11 @@
 
 /*Esercizio 5*/
 .ex-5-square:hover{
-    width: 120px;
-    height: 120px;    
+    transform:scale(2)    
 }
 
 .ex-5-square:active{
-    width: 30px;
-    height: 30px;
+    transform: scale(0.5);
 }
 
 /*Esercio 6*/
